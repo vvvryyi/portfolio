@@ -40,6 +40,7 @@ nav {
 
 .nav__logo {
     width: 70px;
+    z-index: 10;
 }
 
 .nav__logo img {
@@ -509,6 +510,7 @@ html {
     position: relative;
     cursor: pointer;
     display: none;
+    z-index: 10;
 }
 
 .burger-menu i {
@@ -559,10 +561,10 @@ html {
     
     .nav__links {
         position: fixed;
-        top: 63px;
+        top: 0px;
         right: -100%;
         width: 100%;
-        height: calc(100vh - 63px);
+        height: calc(100vh - 0px);
         background-color: var(--color2);
         padding: 20px;
         flex-direction: column;
