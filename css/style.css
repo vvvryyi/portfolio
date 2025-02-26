@@ -354,6 +354,7 @@ footer {
 .project__elements {
     display: flex;
     justify-content: center;
+    gap: 20px;
 }
 
 .project__elements a {
@@ -380,6 +381,11 @@ footer {
     background-position: center;
     background-size: 200%;
 
+}
+.nike {
+    background-image: url(../img/headerPhoto.png);
+    background-position: center;
+    background-size: 200%;
 }
 
 .project__wrapper {
